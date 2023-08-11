@@ -19,7 +19,7 @@ module.exports = {
         deepBlueHead: "#162f56",
         gray2: "#525a76",
       },},
-    extend: {},
+
   },
   plugins: [],
 }
