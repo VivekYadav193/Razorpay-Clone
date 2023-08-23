@@ -13,6 +13,19 @@
            padding-bottom: 12rem;
        }
 
+       .companiesList {
+           animation: 30s infinite linear companiesAnimation;
+       }
+
+       @keyframes companiesAnimation {
+           0% {
+               top: 0;
+           }
+
+           100% {
+               top: -160%;
+           }
+       }
 
    </style>
 
@@ -927,7 +940,7 @@ Sign Up Now
 <!--core-features-->
 
 <section class="w-full bg-[url(/images/core-features-sectionBg.svg)]
-bg-no-repeat bg-cover mt-14 relative bg-center cfsec
+bg-no-repeat bg-cover mt-14 relative bg-center cfsec z-[101]
 ">
 
     <div class=" relative w-11/12 max-w-[1080px] mx-auto pt-4">
@@ -1000,6 +1013,50 @@ bg-no-repeat bg-cover mt-14 relative bg-center cfsec
 
 </section>
 
+
+<!--join-Razorpay-Section-->
+<section class="bg-[#f5f8fe] -mt-[200px] relative z-[100] pt-40 pb-12 ">
+    <div
+            class="w-10/12 md:w-11/12 max-w-[1080px] mx-auto relative pt-4 md:flex"
+    >
+        <div
+                class="md:w-[calc(100%-500px)] md:flex md:flex-col md:justify-center"
+        >
+            <h2 class="font-mullish font-extrabold text-2xl text-deepBlueHead">
+                Join the 50,00,000+ businesses using Razorpay
+            </h2>
+            <div class="w-6 h-1 bg-greenLight my-4 mb-10"></div>
+            <p class="font-mullish">
+                We make it easier for you to focus on building great products while
+                we work on simplifying your payments. Become one of us by joining
+                thousands of our happy users and simplify the online payment
+                experience for your customers.
+            </p>
+            <p class="font-mullish mt-6">
+                Focus on your business while we handle the complexities of payments
+                for you.
+            </p>
+        </div>
+        <div
+                class="h-[500px] md:w-[500px] overflow-y-hidden mt-24 md:mt-0 relative"
+        >
+            <div
+                    class="absolute w-full h-[200px] top-0 z-20"
+                    style="background: linear-gradient(180deg, #f4f8ff, #fff0)"
+            ></div>
+            <div
+                    class="absolute w-full h-[200px] bottom-0 z-20"
+                    style="background: linear-gradient(0deg, #f4f8ff, #fff0)"
+            ></div>
+            <img
+                    src="./images/comanies.png"
+                    class="absolute w-full object-cover h-full md:h-auto z-10 companiesList"
+            />
+        </div>
+    </div>
+</section>
+
+<!--testimonial-section-->
 
 
 </body>
