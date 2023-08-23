@@ -20,12 +20,12 @@
            padding-top:12rem ;
            padding-bottom: 12rem;
        }
-       .ctasec{
-           background-size: 100% 100%;
-           padding-top:18rem ;
-           padding-bottom: 15rem;
+       .ctaBg {
+           background-size: 200% 100%;
        }
-
+       .ctaSection {
+           min-height: 880px;
+       }
        .companiesList {
            animation: 30s infinite linear companiesAnimation;
        }
@@ -1205,9 +1205,9 @@ bg-no-repeat bg-cover bg-center mt-6 md:mt-14 relative z-[1000]">
 
 <!--cta-->
 
-<section class=" relative flex items-center z-[100]">
+<section class="ctaSection relative flex items-center z-[100]">
     <div
-            class="bg-[url(./images/CTABg.svg)] bg-no-repeat bg-center  ctasec w-full h-full absolute -z-[1]"
+            class="bg-[url(./images/CTABg.svg)] ctaBg bg-center w-full h-full absolute -z-[1]"
     ></div>
     <div
             class="w-10/12 my-10 md:my-0 md:w-11/12 max-w-[1080px] h-full mx-auto relative flex items-center space-x-20 justify-between"
@@ -1216,14 +1216,11 @@ bg-no-repeat bg-cover bg-center mt-6 md:mt-14 relative z-[1000]">
             <h2 class="font-mullish font-extrabold text-2xl text-left text-white">
                 Supercharge your business with Razorpay
             </h2>
-
             <div class="w-6 h-1 bg-greenLight my-4"></div>
-
             <p class="font-mullish text-white max-w-[440px]">
                 Sign up now to experience the future of payments and offer your
                 customers the best checkout experience.
             </p>
-
             <ul class="space-y-2 flex flex-wrap text-white my-8">
                 <li class="font-mullish flex items-center gap-x-2 mr-12">
                     <i data-feather="check" class="text-greenLight"></i>
@@ -1242,7 +1239,6 @@ bg-no-repeat bg-cover bg-center mt-6 md:mt-14 relative z-[1000]">
                     <span>24x7 support</span>
                 </li>
             </ul>
-
             <button
                     class="py-3 px-4 min-w-[32px] font-mullish text-sm font-bold bg-white text-lightBlue300 border flex rounded-sm items-center hover:text-lightBlue500 transition-all duration-200"
             >
@@ -1258,9 +1254,7 @@ bg-no-repeat bg-cover bg-center mt-6 md:mt-14 relative z-[1000]">
                     ></path>
                 </svg>
             </button>
-
         </div>
-
         <img
                 src="./images/ctaImg.svg"
                 width="240px"
@@ -1270,7 +1264,6 @@ bg-no-repeat bg-cover bg-center mt-6 md:mt-14 relative z-[1000]">
         />
     </div>
 </section>
-
 <!--footer-->
 
 <footer style="background: linear-gradient(to right, #eef9fe, #edf7ff)" class="-mt-[400px] md:-mt-[215px]"
